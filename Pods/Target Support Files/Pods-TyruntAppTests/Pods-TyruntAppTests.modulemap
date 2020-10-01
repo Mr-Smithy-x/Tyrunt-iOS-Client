@@ -1,0 +1,6 @@
+framework module Pods_TyruntAppTests {
+  umbrella header "Pods-TyruntAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
