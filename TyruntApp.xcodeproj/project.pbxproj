@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0399FAF36BA1F9DF3C552C95 /* Pods_TyruntApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48439B4CFA0EB0B114A4B143 /* Pods_TyruntApp.framework */; };
+		1789EECC251C616600D6A6D8 /* Magnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EECB251C616600D6A6D8 /* Magnet.swift */; };
+		1789EECF25239FE000D6A6D8 /* TryuntViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EECE25239FE000D6A6D8 /* TryuntViewCell.swift */; };
+		1789EED12523DFFB00D6A6D8 /* ApiResponseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EED02523DFFB00D6A6D8 /* ApiResponseList.swift */; };
+		1789EED6252428EF00D6A6D8 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EED5252428EF00D6A6D8 /* ApiResponse.swift */; };
+		1789EED9252435D200D6A6D8 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EED8252435D200D6A6D8 /* Link.swift */; };
+		1789EEDB252435E100D6A6D8 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EEDA252435E100D6A6D8 /* Meta.swift */; };
+		1789EEDD2524362900D6A6D8 /* ApiMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EEDC2524362900D6A6D8 /* ApiMeta.swift */; };
+		1789EEE02524D58400D6A6D8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EEDF2524D58400D6A6D8 /* ApiService.swift */; };
+		1789EEE22524F22400D6A6D8 /* TyruntService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EEE12524F22400D6A6D8 /* TyruntService.swift */; };
+		1789EEEA252660BA00D6A6D8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EEE9252660BA00D6A6D8 /* Extensions.swift */; };
+		1789EEED252678EC00D6A6D8 /* TorrentScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EEEC252678EC00D6A6D8 /* TorrentScreenViewController.swift */; };
 		17DE4356251C362B00A4A88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE4355251C362B00A4A88B /* AppDelegate.swift */; };
 		17DE4358251C362B00A4A88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE4357251C362B00A4A88B /* SceneDelegate.swift */; };
 		17DE435A251C362B00A4A88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE4359251C362B00A4A88B /* ViewController.swift */; };
@@ -16,6 +28,9 @@
 		17DE4365251C362E00A4A88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DE4363251C362E00A4A88B /* LaunchScreen.storyboard */; };
 		17DE4370251C362E00A4A88B /* TyruntAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE436F251C362E00A4A88B /* TyruntAppTests.swift */; };
 		17DE437B251C362E00A4A88B /* TyruntAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE437A251C362E00A4A88B /* TyruntAppUITests.swift */; };
+		17DE438A251C4DD300A4A88B /* Torrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE4389251C4DD300A4A88B /* Torrent.swift */; };
+		182F4490A30BA939EF2F02A6 /* Pods_TyruntApp_TyruntAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFCCC18EE52E478F5CC0348 /* Pods_TyruntApp_TyruntAppUITests.framework */; };
+		933FA890A310277DD92C1DB4 /* Pods_TyruntAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBEF3D92CA8CDC41D180212 /* Pods_TyruntAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0858A5965697B2668FD6D531 /* Pods-TyruntAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyruntAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TyruntAppTests/Pods-TyruntAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1789EECB251C616600D6A6D8 /* Magnet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magnet.swift; sourceTree = "<group>"; };
+		1789EECE25239FE000D6A6D8 /* TryuntViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryuntViewCell.swift; sourceTree = "<group>"; };
+		1789EED02523DFFB00D6A6D8 /* ApiResponseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponseList.swift; sourceTree = "<group>"; };
+		1789EED5252428EF00D6A6D8 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		1789EED8252435D200D6A6D8 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		1789EEDA252435E100D6A6D8 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		1789EEDC2524362900D6A6D8 /* ApiMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMeta.swift; sourceTree = "<group>"; };
+		1789EEDF2524D58400D6A6D8 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		1789EEE12524F22400D6A6D8 /* TyruntService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyruntService.swift; sourceTree = "<group>"; };
+		1789EEE9252660BA00D6A6D8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1789EEEC252678EC00D6A6D8 /* TorrentScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentScreenViewController.swift; sourceTree = "<group>"; };
 		17DE4352251C362B00A4A88B /* TyruntApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyruntApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DE4355251C362B00A4A88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17DE4357251C362B00A4A88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +78,15 @@
 		17DE4376251C362E00A4A88B /* TyruntAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyruntAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DE437A251C362E00A4A88B /* TyruntAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyruntAppUITests.swift; sourceTree = "<group>"; };
 		17DE437C251C362E00A4A88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DE4389251C4DD300A4A88B /* Torrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torrent.swift; sourceTree = "<group>"; };
+		430C42F21752D28E4BB51FEC /* Pods-TyruntApp-TyruntAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyruntApp-TyruntAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TyruntApp-TyruntAppUITests/Pods-TyruntApp-TyruntAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48439B4CFA0EB0B114A4B143 /* Pods_TyruntApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyruntApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5591168841C5B964173F478E /* Pods-TyruntAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyruntAppTests.release.xcconfig"; path = "Target Support Files/Pods-TyruntAppTests/Pods-TyruntAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5ADAED352185C8AD30A63957 /* Pods-TyruntApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyruntApp.debug.xcconfig"; path = "Target Support Files/Pods-TyruntApp/Pods-TyruntApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ACFCCC18EE52E478F5CC0348 /* Pods_TyruntApp_TyruntAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyruntApp_TyruntAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C103C6076A1CCD891682F052 /* Pods-TyruntApp-TyruntAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyruntApp-TyruntAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TyruntApp-TyruntAppUITests/Pods-TyruntApp-TyruntAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D38C8AF4C33FD90D82705761 /* Pods-TyruntApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyruntApp.release.xcconfig"; path = "Target Support Files/Pods-TyruntApp/Pods-TyruntApp.release.xcconfig"; sourceTree = "<group>"; };
+		EDBEF3D92CA8CDC41D180212 /* Pods_TyruntAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyruntAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0399FAF36BA1F9DF3C552C95 /* Pods_TyruntApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933FA890A310277DD92C1DB4 /* Pods_TyruntAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +110,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182F4490A30BA939EF2F02A6 /* Pods_TyruntApp_TyruntAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1789EECD25239FAA00D6A6D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1789EECE25239FE000D6A6D8 /* TryuntViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1789EED7252435C600D6A6D8 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				1789EED8252435D200D6A6D8 /* Link.swift */,
+				1789EEDA252435E100D6A6D8 /* Meta.swift */,
+				1789EEDC2524362900D6A6D8 /* ApiMeta.swift */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		1789EEDE2524D56F00D6A6D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1789EEDF2524D58400D6A6D8 /* ApiService.swift */,
+				1789EEE12524F22400D6A6D8 /* TyruntService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1789EEE82526609E00D6A6D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1789EEE9252660BA00D6A6D8 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1789EEEB252678C900D6A6D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1789EEEC252678EC00D6A6D8 /* TorrentScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		17DE4349251C362B00A4A88B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				17DE436E251C362E00A4A88B /* TyruntAppTests */,
 				17DE4379251C362E00A4A88B /* TyruntAppUITests */,
 				17DE4353251C362B00A4A88B /* Products */,
+				DF829C9B895FC3D3EBD4AD4A /* Pods */,
+				F958AEDBB9DB404EAFB26442 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +185,11 @@
 		17DE4354251C362B00A4A88B /* TyruntApp */ = {
 			isa = PBXGroup;
 			children = (
+				1789EEEB252678C900D6A6D8 /* Controllers */,
+				1789EEE82526609E00D6A6D8 /* Extensions */,
+				1789EEDE2524D56F00D6A6D8 /* Services */,
+				1789EECD25239FAA00D6A6D8 /* Views */,
+				17DE4388251C4DA400A4A88B /* Models */,
 				17DE4355251C362B00A4A88B /* AppDelegate.swift */,
 				17DE4357251C362B00A4A88B /* SceneDelegate.swift */,
 				17DE4359251C362B00A4A88B /* ViewController.swift */,
@@ -131,6 +220,41 @@
 			path = TyruntAppUITests;
 			sourceTree = "<group>";
 		};
+		17DE4388251C4DA400A4A88B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1789EED7252435C600D6A6D8 /* Meta */,
+				17DE4389251C4DD300A4A88B /* Torrent.swift */,
+				1789EECB251C616600D6A6D8 /* Magnet.swift */,
+				1789EED02523DFFB00D6A6D8 /* ApiResponseList.swift */,
+				1789EED5252428EF00D6A6D8 /* ApiResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF829C9B895FC3D3EBD4AD4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ADAED352185C8AD30A63957 /* Pods-TyruntApp.debug.xcconfig */,
+				D38C8AF4C33FD90D82705761 /* Pods-TyruntApp.release.xcconfig */,
+				430C42F21752D28E4BB51FEC /* Pods-TyruntApp-TyruntAppUITests.debug.xcconfig */,
+				C103C6076A1CCD891682F052 /* Pods-TyruntApp-TyruntAppUITests.release.xcconfig */,
+				0858A5965697B2668FD6D531 /* Pods-TyruntAppTests.debug.xcconfig */,
+				5591168841C5B964173F478E /* Pods-TyruntAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F958AEDBB9DB404EAFB26442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48439B4CFA0EB0B114A4B143 /* Pods_TyruntApp.framework */,
+				ACFCCC18EE52E478F5CC0348 /* Pods_TyruntApp_TyruntAppUITests.framework */,
+				EDBEF3D92CA8CDC41D180212 /* Pods_TyruntAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17DE437F251C362E00A4A88B /* Build configuration list for PBXNativeTarget "TyruntApp" */;
 			buildPhases = (
+				FBEC27CD88FD6A3C442DCA27 /* [CP] Check Pods Manifest.lock */,
 				17DE434E251C362B00A4A88B /* Sources */,
 				17DE434F251C362B00A4A88B /* Frameworks */,
 				17DE4350251C362B00A4A88B /* Resources */,
+				75E40408FFEB5C715E6EB381 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17DE4382251C362E00A4A88B /* Build configuration list for PBXNativeTarget "TyruntAppTests" */;
 			buildPhases = (
+				C55FF017C0E06311CBE1B815 /* [CP] Check Pods Manifest.lock */,
 				17DE4367251C362E00A4A88B /* Sources */,
 				17DE4368251C362E00A4A88B /* Frameworks */,
 				17DE4369251C362E00A4A88B /* Resources */,
@@ -173,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17DE4385251C362E00A4A88B /* Build configuration list for PBXNativeTarget "TyruntAppUITests" */;
 			buildPhases = (
+				2DB9FBC2B4C2EC1C919DE602 /* [CP] Check Pods Manifest.lock */,
 				17DE4372251C362E00A4A88B /* Sources */,
 				17DE4373251C362E00A4A88B /* Frameworks */,
 				17DE4374251C362E00A4A88B /* Resources */,
+				D946A14609D31198121176C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +386,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DB9FBC2B4C2EC1C919DE602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TyruntApp-TyruntAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E40408FFEB5C715E6EB381 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyruntApp/Pods-TyruntApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyruntApp/Pods-TyruntApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TyruntApp/Pods-TyruntApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55FF017C0E06311CBE1B815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TyruntAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D946A14609D31198121176C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyruntApp-TyruntAppUITests/Pods-TyruntApp-TyruntAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyruntApp-TyruntAppUITests/Pods-TyruntApp-TyruntAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TyruntApp-TyruntAppUITests/Pods-TyruntApp-TyruntAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEC27CD88FD6A3C442DCA27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TyruntApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17DE434E251C362B00A4A88B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17DE435A251C362B00A4A88B /* ViewController.swift in Sources */,
+				1789EECC251C616600D6A6D8 /* Magnet.swift in Sources */,
 				17DE4360251C362B00A4A88B /* TyruntApp.xcdatamodeld in Sources */,
 				17DE4356251C362B00A4A88B /* AppDelegate.swift in Sources */,
+				1789EEDB252435E100D6A6D8 /* Meta.swift in Sources */,
 				17DE4358251C362B00A4A88B /* SceneDelegate.swift in Sources */,
+				1789EED12523DFFB00D6A6D8 /* ApiResponseList.swift in Sources */,
+				1789EED6252428EF00D6A6D8 /* ApiResponse.swift in Sources */,
+				17DE438A251C4DD300A4A88B /* Torrent.swift in Sources */,
+				1789EEE22524F22400D6A6D8 /* TyruntService.swift in Sources */,
+				1789EEEA252660BA00D6A6D8 /* Extensions.swift in Sources */,
+				1789EEED252678EC00D6A6D8 /* TorrentScreenViewController.swift in Sources */,
+				1789EEDD2524362900D6A6D8 /* ApiMeta.swift in Sources */,
+				1789EECF25239FE000D6A6D8 /* TryuntViewCell.swift in Sources */,
+				1789EEE02524D58400D6A6D8 /* ApiService.swift in Sources */,
+				1789EED9252435D200D6A6D8 /* Link.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +680,7 @@
 		};
 		17DE4380251C362E00A4A88B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ADAED352185C8AD30A63957 /* Pods-TyruntApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +699,7 @@
 		};
 		17DE4381251C362E00A4A88B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38C8AF4C33FD90D82705761 /* Pods-TyruntApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +718,7 @@
 		};
 		17DE4383251C362E00A4A88B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0858A5965697B2668FD6D531 /* Pods-TyruntAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +741,7 @@
 		};
 		17DE4384251C362E00A4A88B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5591168841C5B964173F478E /* Pods-TyruntAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +764,7 @@
 		};
 		17DE4386251C362E00A4A88B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430C42F21752D28E4BB51FEC /* Pods-TyruntApp-TyruntAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +785,7 @@
 		};
 		17DE4387251C362E00A4A88B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C103C6076A1CCD891682F052 /* Pods-TyruntApp-TyruntAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
